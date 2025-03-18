@@ -1,15 +1,15 @@
 ## **AI Fraud Detection System Using XGBoost**
 
 This project leverages **XGBoost** to build a high-accuracy fraud detection system that identifies fraudulent credit card transactions. The model has been trained on real-world credit card transaction data and achieves an impressive performance with:  
-✅ **Train Accuracy:** 99.85%  
-✅ **Test Accuracy:** 99.83%  
-✅ **Precision:** 99.81%  
-✅ **Recall:** 99.85%  
-✅ **F1-Score:** 99.83%  
+**Train Accuracy:** 99.85%  
+**Test Accuracy:** 99.83%  
+**Precision:** 99.81%  
+**Recall:** 99.85%  
+**F1-Score:** 99.83%  
 
 ---
 
-## 📚 **Dataset Overview**
+##**Dataset Overview**
 
 **Dataset Link** => [Credit Card Fraud Dataset](https://gts.ai/dataset-download/credit-card-transactions-dataset/)
 The dataset contains transaction-level details such as:  
@@ -21,7 +21,7 @@ The dataset contains transaction-level details such as:
 
 ---
 
-## 🛠️ **Project Structure**
+##**Project Structure**
 ```
 ├── fraud_detection_xgb.pkl             # Trained XGBoost model
 ├── fraud_detection.ipynb               # Main notebook for model training
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ---
 
-### 3 **Run the Jupyter Notebook (If You Want To Train Model)**
+### 3 **Run the Jupyter Notebook (If You Want To Train the Model)**
 ```bash
 # Open the notebook to train and save the model
 jupyter notebook
