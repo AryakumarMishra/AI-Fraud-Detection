@@ -1,3 +1,11 @@
+"""
+MAKE SURE TO HAVE THE DATASET DOWNLOADED AND SAVED IN THE 'data/' FOLDER, AS MENTIONED IN 'data_path' BELOW.
+
+ALSO MAKE SURE TO CREATE THE 'models' FOLDER AND ANOTHER 'encoders' FOLDER INSIDE 'models/' FOLDER. (EMPTY FOLDERS, ONCE YOU RUN THE FOLLOWING PIPELINE (>python main.py), THE MODELS AND NECESSARY ENCODERS WILL BE SAVED ACCORDINGLY)
+
+"""
+
+
 from src.data_loader import load_data
 from src.feature_engineering import preprocess_features
 from src.model_training import train_model
