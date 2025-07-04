@@ -53,13 +53,10 @@ fraud-detection-project/
 ├── requirements.txt
 └── README.md
 
-````
-
 ```
 
-## Getting Started
+## Getting Started. Clone the Repository
 
-###bClone the Repository
 ```bash
 git clone https://github.com/AryakumarMishra/AI-Fraud-Detection.git
 cd AI-Fraud-Detection
